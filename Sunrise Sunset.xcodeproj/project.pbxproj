@@ -17,6 +17,7 @@
 		797F8699225BA134007D4C06 /* SunTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F8698225BA134007D4C06 /* SunTimes.swift */; };
 		797F869B225BA1BF007D4C06 /* SunTimesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F869A225BA1BF007D4C06 /* SunTimesService.swift */; };
 		797F86A0225BB311007D4C06 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797F869F225BB311007D4C06 /* MapKit.framework */; };
+		797F86A2225CFE1D007D4C06 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F86A1225CFE1D007D4C06 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		797F8698225BA134007D4C06 /* SunTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimes.swift; sourceTree = "<group>"; };
 		797F869A225BA1BF007D4C06 /* SunTimesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimesService.swift; sourceTree = "<group>"; };
 		797F869F225BB311007D4C06 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		797F86A1225CFE1D007D4C06 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				7929951D22543CCD00BE4670 /* AppDelegate.swift */,
 				7929951F22543CCD00BE4670 /* ViewController.swift */,
 				797F8698225BA134007D4C06 /* SunTimes.swift */,
+				797F86A1225CFE1D007D4C06 /* Location.swift */,
 				797F869A225BA1BF007D4C06 /* SunTimesService.swift */,
 				7929952122543CCD00BE4670 /* Main.storyboard */,
 				7929952422543CCE00BE4670 /* Assets.xcassets */,
@@ -276,6 +279,7 @@
 			files = (
 				7929952022543CCD00BE4670 /* ViewController.swift in Sources */,
 				797F869B225BA1BF007D4C06 /* SunTimesService.swift in Sources */,
+				797F86A2225CFE1D007D4C06 /* Location.swift in Sources */,
 				797F8699225BA134007D4C06 /* SunTimes.swift in Sources */,
 				7929951E22543CCD00BE4670 /* AppDelegate.swift in Sources */,
 			);

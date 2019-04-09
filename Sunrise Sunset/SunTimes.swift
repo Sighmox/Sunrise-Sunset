@@ -9,11 +9,16 @@
 import Foundation
 
 
+
 struct Results: Decodable {
     let results: SunTimes
     
+
+    
 }
     struct SunTimes: Decodable {
+        
+        
         let sunrise: String
         let sunset: String
         
@@ -54,6 +59,8 @@ extension SunTimes {
         // Convert UTC timestamp to local time for device
         sunrise = SunTimes.localDateFormatter.string(from: sunriseUTCDate!)
         sunset = SunTimes.localDateFormatter.string(from: sunsetUTCDate!)
+        
+        
     }
 }
 

@@ -7,10 +7,16 @@
 //
 
 import Foundation
+import CoreLocation
+
 
 class SunTimesService {
     
+    //var locationManager:CLLocationManagerDelegate!
+    
+    
     func fetchSunTimes() {
+    
     
     let url_str = "https://api.sunrise-sunset.org/json?lat=45&lng=-93"
     let url = URL(string: url_str)
